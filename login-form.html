@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سازمان تامین-اجتماعی ورود به سامانه</title>
+    <link rel="stylesheet" href="login-tamin.css" >
+  </head>
+
+  <body>
+    <div class="container">
+      <p class="form-title">ورود به سامانه</p>
+
+      <form method="post">
+        <div class="radio"><input type="radio" id="nathional-code" name="login">
+          <label for="nathional-code">ورود با کد ملی</label>
+          <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>
+          <input type="radio" id="email" name="login">
+          <label for="email">ورود با ایمیل</label></div>
+
+        <input
+          type="text"
+          placeholder="نام کاربری"
+          name="username" maxlength="10">
+
+        <input
+          type="password"
+          placeholder="گذرواژه"
+          name="password" minlength="7">
+
+        <input type="submit" value="ورود" >
+
+        <div class="horizontal">
+          <div style="width: 46%;"><hr style="background-color: rgba(0, 0, 0, 0.57);"></div>
+          &nbsp;<div>یا </div>&nbsp;
+          <div style="width: 46%;"><hr style="background-color: rgba(0, 0, 0, 0.57);"></div>
+        </div>
+
+        <input
+          type="button"
+          value="ورود از طریق دولت من "
+           onclick="window.location.href='#'">
+      </form>
+      <div class="register">
+        <p>
+          حساب کاربری ندارید؟
+          &nbsp; <a href="#">ثبت نام کنید</a>
+        </p>
+        <p>
+          گذرواژه را فراموش کرده اید؟
+          &nbsp; <a href="#">بازیابی گذرواژه</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
