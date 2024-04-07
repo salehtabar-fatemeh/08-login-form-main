@@ -1,0 +1,27 @@
+@font-face{
+    font-family: iran-sans;
+     src: url(Font-web/IRANSansWeb-FaNum.woff2);
+}
+
+@font-face{
+    font-family: iran-sans;
+    font-weight: bold;
+    src: url(Font-web/IRANSansWeb-FaNum_Bold.woff2);
+}
+
+:root{
+    font-size: 16px;
+}
+
+body{
+    font-family: iran-sans;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: rgba(22, 23, 101, .85);
+}
+body div.background{
+    width: auto;
+    height: 28.125rem;
+    background-image: url(assets/headerbg3.jpg);
+    position: relative;
+}
